@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive fitness and gym website design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+    <script src="script.js"></script>
+</head>
+<style>
+    html,
+    body {
+        position: relative;
+        height: 50%;
+    }
+    
+    body {
+        /* background: #eee; */
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .swiper {
+        width: 100%;
+        height: 30%;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+</style>
+
+<body>
+
+    <!-- header section starts      -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <span>GYM</span>SITE </a>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="About.html">about</a>
+            <!-- <a href="#features">features</a> -->
+            <!-- <a href="#pricing">pricing</a> -->
+            <a href="Blog.html">Blog</a>
+            <!-- <a href="#blogs">blogs</a> -->
+        </nav>
+
+    </header>
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/imgabout2.jpg" style="height: 690px; position: relative;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">BE Metally Be Strong</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white">Make Yourself</p>
+                                <p2 class="text-white">Stronger Than Your Excues.</p2>
+                                <br/>
+                                <a href="#" class="btn">Get started</a> </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="./images/Gym9.jpg" style="height: 690px; position: relative; background-position: center; background-size: cover;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Forge Your Body</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white">Recharge Your Energy</p>
+                                <p2 class="text-white"> Experience the Gym's Vitality</p2>
+                                <br/>
+                                <a href="#" class="btn">Get started</a> </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/zym13.jpg" style="height: 690px; position: relative; background-position: center; background-size: cover;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Revitalize Your Workout</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white">Embrace the Energy of the Gym</p>
+                                <p2 class="text-white">Discover the Gym's Magic</p2>
+                                <br/>
+                                <a href="#" class="btn">Get started</a> </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/banner-bg.jpg" style="height: 690px; position: relative;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Unlock Your Strength</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white" style="font-family: nunitio , sans-serif;">Make Yourself</p>
+                                <p2 class="text-white" style="font-family: nunitio , sans-serif;">Stronger Than Your Excues.</p2>
+                                <br/>
+                                <button class="btn p-[15px] pl-[30px] pr-[30px] bg-red-500 text-white top-[16%]">Get Started</button> </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/gymweb.jpg" style="height: 690px; position: relative;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Transform Your Body</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white" style="font-family: nunitio , sans-serif;">Make Yourself</p>
+                                <p2 class="text-white" style="font-family: nunitio , sans-serif;">Stronger Than Your Excues.</p2>
+                                <br/>
+                                <a href="#" class="btn">Get started</a> </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/home-bg-3.jpg" style="height: 690px; position: relative; background-position: center; background-size: cover;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Get Fit, Get Strong</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white" style="font-family: nunitio , sans-serif;">Build Strength, Build Confidence</p>
+                                <p2 class="text-white" style="font-family: nunitio , sans-serif;"> Embrace the Gym's Power</p2>
+                                <br/>
+                                <a href="#" class="btn">Get started</a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/banner-bg.jpg" style="height: 690px; position: relative;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Sculpt Your Ideal Physique</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white" style="font-family: nunitio , sans-serif;">Experience the Gym's </p>
+                                <p2 class="text-white" style="font-family: nunitio , sans-serif;">Transformational Journey to a Better You</p2>
+                                <br/>
+                                <a href="#" class="btn">Get started</a> </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next "></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+    <section class="about pt-[140px]" id="about">
+
+        <div class="image">
+            <img src="./images/zym10.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <span>about us</span>
+            <h3 class="title">Every day is a chance to become better</h3>
+            <p> Zym has created a range of unique electrolyte tablets and drink mixes that are designed to replenish essential nutrients lost during physical activity.</p>
+            <div class="box-container">
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>body and mind</h3>
+                    <p>These electrolytes play a vital role in maintaining proper hydration levels, muscle function, and overall performance.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>healthy life</h3>
+                    <p>heir attention to detail ensures that each tablet delivers optimal hydration and electrolyte balance.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>strategies</h3>
+                    <p>With Zym products, athletes can stay hydrated, maintain electrolyte balance, and push their limits with confidence. </p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>workout</h3>
+                    <p> Zym has developed specific blends to support athletes in reaching their peak performance.</p>
+                </div>
+            </div>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </section>
+
+    <h1 class="heading pt-[100px] pb-[100px]"> <span class="pt-[100px] pb-[100px]">Cards</span> </h1>
+    <div class="container pt-[10px] pb-[100px] lg:pl-0 pr-0 pl-[60px] pr-[90px]">
+
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3">
+
+            <div class="card lg:w-[37rem] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110" style=" margin-top: 30px;">
+                <img src="./images/zym24.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size: 15px; font-family: sans-serif;">Unlock Your Potentia</h5>
+                    <p class="card-text pt-3 pb-5" style="font-size: 15px; font-family: sans-serif;">A gym is a place where individuals go to engage in physical exercise and improve their overall fitness.</p>
+                    <a href="#" class="btn">Get started</a>
+                </div>
+            </div>
+
+            <div class="card lg:w-[37rem] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110" style=" margin-top: 30px;">
+                <img src="./images/zym22.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size: 15px; font-family: sans-serif;">Recharge Your Energy</h5>
+                    <p class="card-text pt-3 pb-5" style="font-size: 15px; font-family: sans-serif;">Going to the gym is not only a means to enhance physical health.</p>
+                    <a href="#" class="btn">Get started</a>
+                </div>
+            </div>
+
+            <div class="card lg:w-[37rem] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110" style=" margin-top: 30px;">
+                <img src="./images/zym19.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size: 15px; font-family: sans-serif;">Achieve Your Fitness Goals</h5>
+                    <p class="card-text pt-3 pb-5" style="font-size: 15px; font-family: sans-serif;"> Additionally, gyms often provide group exercise classes, personal training services, and amenities like showers and lockers.</p>
+                    <a href="#" class="btn">Get started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <img src="./images/zym30.jpg" class="d-block w-100 lg:h-[600px] h-[400px] relative text-center" alt="...">
+                    <div class="text-center text-white text-2xl font-bold text-bold">
+                        <p class="absolute top-[50%] text-center lg:left-[43%] lg:text-4xl text-3xl   shadow-white">Elevate Your Fitness Game </p>
+                        <h1 class="absolute top-[57%] text-center lg:left-[39%] lg:text-4xl text-3xl   shadow-white">Unleash Your Potential at the Gym</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/zym33.jpg" class="d-block w-100   lg:h-[600px] h-[400px]" alt="...">
+                    <div class="text-center text-white text-2xl font-bold text-bold">
+                        <p class="absolute top-[50%] text-center lg:left-[43%] lg:text-4xl text-3xl  shadow-white">Unlock Your Strength </p>
+                        <h1 class="absolute top-[57%] text-center lg:left-[39%] lg:text-4xl text-3xl shadow-white">Harness the Gym's Fitness Benefits</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/zym36.jpg" class="d-block w-100 lg:h-[600px] h-[400px]" alt="...">
+                    <div class="text-center text-white text-2xl font-bold text-bold">
+                        <p class="absolute top-[50%] text-center lg:left-[43%] lg:text-4xl text-3xl   shadow-white">Transform Your Body, Transform Your Life</p>
+                        <h1 class="absolute top-[57%] text-center lg:left-[49%] lg:text-4xl text-3xl  shadow-white">Embrace the Gym's Journey</h1>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-yellow-500 p-3" aria-hidden="true"></span>
+          <span class="visually-hidden bg-yellow-500 p-2" >Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-yellow-500 p-3" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    <section class="features" id="features">
+
+        <h1 class="heading pt-[100px] pb-[100px]"> <span>gym features</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/f-img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <img src="images/icon-1.png" alt="">
+                    <h3>body building</h3>
+                    <p>It typically offers a variety of equipment and facilities to cater to different workout routines and goals.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box second">
+                <div class="image">
+                    <img src="images/f-img-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <img src="images/icon-2.png" alt="">
+                    <h3>Physique</h3>
+                    <p> A social environment where individuals can connect with like-minded individuals and find motivation to achieve their fitness goals.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/f-img-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <img src="images/icon-3.png" alt="">
+                    <h3>gym for women</h3>
+                    <p>A gym is a place where individuals go to engage in physical exercise and improve their overall fitness.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- footer section starts  -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a class="links" href="#home">home</a>
+                <a class="links" href="#about">about</a>
+                <a class="links" href="#features">features</a>
+                <a class="links" href="#pricing">pricing</a>
+                <a class="links" href="#trainers">trainers</a>
+                <a class="links" href="#blogs">blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>opening hours</h3>
+                <p> monday : <i> 7:00am - 10:30pm </i> </p>
+                <p> tuesday : <i> 7:00am - 10:30pm </i> </p>
+                <p> wednesday : <i> 7:00am - 10:30pm </i> </p>
+                <p> friday : <i> 7:00am - 10:30pm </i> </p>
+                <p> saturday : <i> 7:00am - 10:30pm </i> </p>
+                <p> sunday : <i> closed </i> </p>
+            </div>
+
+            <div class="box">
+                <h3>opening hours</h3>
+                <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+                <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
+                <p> <i class="fas fa-envelope"></i> Vijay@gmail.com </p>
+                <p> <i class="fas fa-map"></i> Delhi, india - 400104 </p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" class="email" placeholder="enter your email" id="">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="credit"> created by <span>Vijay Thakur</span> | all rights reserved! </div>
+
+    <!-- footer section ends -->
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>

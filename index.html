@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive fitness and gym website design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+    <script src="script.js"></script>
+</head>
+<style>
+    html,
+    body {
+        position: relative;
+        height: 50%;
+    }
+    
+    body {
+        /* background: #eee; */
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .swiper {
+        width: 100%;
+        height: 30%;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+</style>
+
+<body>
+
+    <!-- header section starts      -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <span>GYM</span>SITE </a>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="About.html">about</a>
+
+            <a href="Blog.html">Blog</a>
+            <!-- <a href="#blogs">blogs</a> -->
+        </nav>
+
+    </header>
+
+    <!-- header section ends     -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/gymweb.jpg" style="height: 690px; position: relative;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">BE Metally Be Strong</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white">Make Yourself</p>
+                                <p2 class="text-white">Stronger Than Your Excues.</p2>
+                                <br />
+                                <a href="#" class="btn">Get started</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="./images/img12.jpg" style="height: 690px; position: relative; background-position: center; background-size: cover;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Forge Your Body</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white">Recharge Your Energy</p>
+                                <p2 class="text-white"> Experience the Gym's Vitality</p2>
+                                <br />
+                                <a href="#" class="btn">Get started</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/home-bg-3.jpg" style="height: 690px; position: relative; background-position: center; background-size: cover;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Revitalize Your Workout</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white">Embrace the Energy of the Gym</p>
+                                <p2 class="text-white">Discover the Gym's Magic</p2>
+                                <br />
+                                <a href="#" class="btn">Get started</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/banner-bg.jpg" style="height: 690px; position: relative;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Unlock Your Strength</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white" style="font-family: nunitio , sans-serif;">Make Yourself</p>
+                                <p2 class="text-white" style="font-family: nunitio , sans-serif;">Stronger Than Your Excues.
+                                </p2>
+                                <br />
+                                <button class="btn p-[15px] pl-[30px] pr-[30px] bg-red-500 text-white top-[16%]">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/gymweb.jpg" style="height: 690px; position: relative;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Transform Your Body</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white" style="font-family: nunitio , sans-serif;">Make Yourself</p>
+                                <p2 class="text-white" style="font-family: nunitio , sans-serif;">Stronger Than Your Excues.
+                                </p2>
+                                <br />
+                                <a href="#" class="btn">Get started</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/home-bg-3.jpg" style="height: 690px; position: relative; background-position: center; background-size: cover;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Get Fit, Get Strong</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white" style="font-family: nunitio , sans-serif;">Build Strength, Build Confidence
+                                </p>
+                                <p2 class="text-white" style="font-family: nunitio , sans-serif;"> Embrace the Gym's Power
+                                </p2>
+                                <br />
+                                <a href="#" class="btn">Get started</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/banner-bg.jpg" style="height: 690px; position: relative;" />
+                            <span class="absolute lg:text-[50px] text-[30px] text-white lg:top-[35%] top-[37%] left-[10%] text-left" style="font-family: nunitio , sans-serif;">Sculpt Your Ideal Physique</span>
+                            <div class="absolute lg:top-[46%] top-[44%] lg:text-[40px] left-[10%] text-left">
+                                <p class="text-white" style="font-family: nunitio , sans-serif;">Experience the Gym's
+                                </p>
+                                <p2 class="text-white" style="font-family: nunitio , sans-serif;">Transformational Journey to a Better You</p2>
+                                <br />
+                                <a href="#" class="btn">Get started</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next "></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+
+    <div>
+
+        <h1 class="heading pt-[100px] pb-[100px]"> <span class="pt-[100px] pb-[100px]">Best Gym Membership</span> </h1>
+    </div>
+
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="./images/bestGym.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <span>about us</span>
+            <h3 class="title">Every day is a chance to become better</h3>
+            <p> Zym has created a range of unique electrolyte tablets and drink mixes that are designed to replenish essential nutrients lost during physical activity.</p>
+            <div class="box-container">
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>body and mind</h3>
+
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>healthy life</h3>
+
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>strategies</h3>
+
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>workout</h3>
+
+                </div>
+            </div>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </section>
+
+
+
+    <section class="features" id="features">
+
+        <h1 class="heading pt-[100px] pb-[100px]"> <span>gym features</span> </h1>
+
+        <div class="box-container">
+
+
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-col-1 gap-12 ">
+                <div class="bg-white p-2 items-center lg:pt-[100px] ">
+                    <img src="./images/icon-1.png" class="w-[170px] h-[170px]  text-center m-auto items-center" />
+                    <h1 class="text-3xl text-black text-bold font-bold text-center pt-12">personal</h1>
+                </div>
+                <div class="bg-white p-2 items-center lg:pt-[100px]">
+                    <img src="./images/icon-2.png" class="w-[170px] h-[170px]  text-center m-auto items-center" />
+                    <h1 class="text-3xl text-black text-bold font-bold text-center pt-12">Physique</h1>
+                </div>
+                <div class="bg-white p-2 items-center lg:pt-[100px]">
+                    <img src="./images/icon-3.png" class="w-[170px] h-[170px]  text-center m-auto items-center" />
+                    <h1 class="text-3xl text-black text-bold font-bold text-center pt-12">Workout</h1>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="pricing" id="pricing">
+
+        <div class="information">
+            <span>pricing plan</span>
+            <h3>affordable pricing plan for your</h3>
+            <p>It typically offers a variety of equipment and facilities to cater to different workout routines and goals. In a gym, you can find treadmills, stationary bikes, weightlifting machines, free weights, and more. </p>
+            <p> <i class="fas fa-check"></i> cardio exercise </p>
+            <p> <i class="fas fa-check"></i> weight lifting </p>
+            <p> <i class="fas fa-check"></i> diet plans </p>
+            <p> <i class="fas fa-check"></i> overall results </p>
+            <a href="#" class="btn">all pricing</a>
+        </div>
+
+        <div class="plan basic">
+            <h3>basic plan</h3>
+            <div class="price"><span>$</span>30<span>/mo</span></div>
+            <div class="list">
+                <p> <i class="fas fa-check"></i> personal training </p>
+                <p> <i class="fas fa-check"></i> cardio exercise </p>
+                <p> <i class="fas fa-check"></i> weight lifting </p>
+                <p> <i class="fas fa-check"></i> diet plans </p>
+                <p> <i class="fas fa-check"></i> overall results </p>
+            </div>
+            <a href="#" class="btn">get started</a>
+        </div>
+
+        <div class="plan">
+            <h3>premium plan</h3>
+            <div class="price"><span>$</span>90<span>/mo</span></div>
+            <div class="list">
+                <p> <i class="fas fa-check"></i> personal training </p>
+                <p> <i class="fas fa-check"></i> cardio exercise </p>
+                <p> <i class="fas fa-check"></i> weight lifting </p>
+                <p> <i class="fas fa-check"></i> diet plans </p>
+                <p> <i class="fas fa-check"></i> overall results </p>
+            </div>
+            <a href="#" class="btn">get started</a>
+        </div>
+
+    </section>
+
+    <!-- pricing section ends -->
+
+    <!-- trainers section starts  -->
+
+    <section class="trainers" id="trainers">
+
+        <h1 class="heading"> <span>expert trainers</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/trainer-1.jpg" alt="">
+                <div class="content">
+                    <span>expert trainer</span>
+                    <h3>Sachin Mehanty</h3>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-pinterest"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/blog-3.jpg" alt="">
+                <div class="content">
+                    <span>Cardio trainer</span>
+                    <h3>Vijay Shukla</h3>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-pinterest"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/fitness.jpg" alt="">
+                <div class="content">
+                    <span>fitness instructor</span>
+                    <h3>Saksham Jha</h3>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-pinterest"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/yoga.jpg" alt="">
+                <div class="content">
+                    <span>yoga trainer</span>
+                    <h3>Smirit sinha</h3>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-pinterest"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="banner">
+
+        <span>join us now</span>
+        <h3>get upto 50% discount</h3>
+        <p>At our gym, we believe that everyone deserves the opportunity to prioritize their health and well-being. Our discounted rates ensure that cost won't be a barrier to achieving your fitness goals</p>
+        <a href="#" class="btn">get discount</a>
+
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review">
+
+        <div class="information">
+            <span>testimonials</span>
+            <h3>what our clients says</h3>
+            <p>Going to the gym is not only a means to enhance physical health but also offers a social environment where individuals can connect with like-minded individuals and find motivation to achieve their fitness goals."
+
+
+
+
+            </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <p>A gym is a place where individuals go to engage in physical exercise and improve their overall fitness.
+                    </p>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="info">
+                            <h3>Jatinadar sharma</h3>
+                            <span>clients</span>
+                        </div>
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quo.</p>
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="info">
+                            <h3>john deo</h3>
+                            <span>designer</span>
+                        </div>
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quo.</p>
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="info">
+                            <h3>john deo</h3>
+                            <span>designer</span>
+                        </div>
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quo.</p>
+                    <div class="user">
+                        <img src="images/pic-4.png" alt="">
+                        <div class="info">
+                            <h3>john deo</h3>
+                            <span>designer</span>
+                        </div>
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> <span>daily posts</span> </h1>
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>
+                        <h3>fitness is not about being better than someone else</h3>
+                        <p>People visit the gym to work on various aspects of their fitness, such as cardiovascular endurance, strength training, flexibility, and muscular development</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>
+                        <h3>fitness is not about being better than someone else</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, tenetur?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>
+                        <h3>fitness is not about being better than someone else</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, tenetur?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>
+                        <h3>fitness is not about being better than someone else</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, tenetur?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>
+                        <h3>fitness is not about being better than someone else</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, tenetur?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a class="links" href="#home">home</a>
+                <a class="links" href="#about">about</a>
+                <a class="links" href="#features">features</a>
+                <a class="links" href="#pricing">pricing</a>
+                <a class="links" href="#trainers">trainers</a>
+                <a class="links" href="#blogs">blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>opening hours</h3>
+                <p> monday : <i> 7:00am - 10:30pm </i> </p>
+                <p> tuesday : <i> 7:00am - 10:30pm </i> </p>
+                <p> wednesday : <i> 7:00am - 10:30pm </i> </p>
+                <p> friday : <i> 7:00am - 10:30pm </i> </p>
+                <p> saturday : <i> 7:00am - 10:30pm </i> </p>
+                <p> sunday : <i> closed </i> </p>
+            </div>
+
+            <div class="box">
+                <h3>opening hours</h3>
+                <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+                <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
+                <p> <i class="fas fa-envelope"></i> Vijay@gmail.com </p>
+                <p> <i class="fas fa-map"></i> Delhi, india - 400104 </p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" class="email" placeholder="enter your email" id="">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="credit"> created by <span>Vijay Thakur</span> | all rights reserved! </div>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "progressbar",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
